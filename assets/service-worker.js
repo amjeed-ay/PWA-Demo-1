@@ -4,10 +4,11 @@ const assets = [
   "./index.html",
   "./style.css",
   "./app.js",
-  "./album-cover.jpg",
-  "./song1.mp3",
-  "./song2.mp3",
-  "./song3.mp3",
+  "./album-photo.jpg",
+  "./icon.png",
+  "./djab.mp3",
+  "./khadija.mp3",
+  "./sia.mp3",
 ];
 
 // Install Service Worker and Cache Assets
