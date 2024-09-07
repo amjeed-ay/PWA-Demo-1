@@ -13,6 +13,9 @@
 
     <!-- Manifest -->
     <link rel="manifest" href="./assets/manifest.json" />
+
+    <!-- Javascript -->
+    <script src="./assets/app.js" defer></script>
   </head>
   <body>
     <div class="music-player">
@@ -39,7 +42,11 @@
       </audio>
     </div>
 
-    <!-- Javascript -->
-    <script src="./assets/app.js" defer></script>
+    <script>
+      // Register Service Worker
+      if (typeof navigator.serviceWorker !== "undefined") {
+        navigator.serviceWorker.register("./service-worker.js");
+      }
+    </script>
   </body>
 </html>
