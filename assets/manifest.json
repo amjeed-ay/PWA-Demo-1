@@ -1,7 +1,9 @@
 {
-  "name": "My Favorite Music 2024",
+, 
+  "orientation": "any",
+  "name": "2024 Favorite Music",
   "id": "music12024",
-  "short_name": "Music 2024",
+  "short_name": "2024 Favorite Music",
   "description": "A simple music player showcasing my favorite songs.",
   "start_url": "./index.html",
   "display": "standalone",
