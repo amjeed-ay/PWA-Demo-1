@@ -1,14 +1,14 @@
 const CACHE_NAME = "music-cache-v1";
 const assets = [
-  "./",
-  "../index.html",
-  "./style.css",
-  "./app.js",
-  "./album-photo.jpg",
-  "./icon.png",
-  "./djab.mp3",
-  "./khadija.mp3",
-  "./sia.mp3",
+  "./assets/",
+  "./index.html",
+  "./assets/style.css",
+  "./assets/app.js",
+  "./assets/album-photo.jpg",
+  "./assets/icon.png",
+  "./assets/djab.mp3",
+  "./assets/khadija.mp3",
+  "./assets/sia.mp3",
 ];
 
 // Install Service Worker and Cache Assets
