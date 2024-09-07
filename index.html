@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Favorite Music 2024</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/icon.png" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <!-- Manifest -->
+    <link rel="manifest" href="./assets/manifest.json" />
+
+    <!-- Javascript -->
+    <script src="./assets/app.js" defer></script>
+  </head>
+  <body>
+    <div class="music-player">
+      <h2>My Favorite Music 2024</h2>
+      <img src="./assets/album-photo.jpg" alt="Album Cover" id="album-cover" />
+
+      <!-- Music List -->
+      <ul id="music-list">
+        <li id="song-1" onclick="playMusic('./assets/djab.mp3', 'song-1')">
+          Dj Ab Keda Ni
+        </li>
+        <li id="song-2" onclick="playMusic('./assets/khadija.mp3', 'song-2')">
+          Namenj - Khadija
+        </li>
+        <li id="song-3" onclick="playMusic('./assets/sia.mp3', 'song-3')">
+          Sia - Unstoppable
+        </li>
+      </ul>
+
+      <!-- Audio Player -->
+      <audio id="audio-player" controls>
+        <source id="audio-source" src="" />
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </body>
+</html>
