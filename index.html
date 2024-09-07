@@ -41,23 +41,9 @@
         Your browser does not support the audio element.
       </audio>
     </div>
-
     <script>
-      // Register Service Worker
       if (typeof navigator.serviceWorker !== "undefined") {
-        window.addEventListener("load", function () {
-          navigator.serviceWorker.register("./service-worker.js").then(
-            function (registration) {
-              console.log(
-                "Service Worker registered with scope:",
-                registration.scope
-              );
-            },
-            function (err) {
-              console.log("Service Worker registration failed:", err);
-            }
-          );
-        });
+        navigator.serviceWorker.register("./service-worker.js");
       }
     </script>
   </body>
