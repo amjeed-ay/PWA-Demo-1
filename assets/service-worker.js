@@ -1,7 +1,7 @@
 const CACHE_NAME = "music-cache-v1";
 const assets = [
   "./",
-  "./index.html",
+  "../index.html",
   "./style.css",
   "./app.js",
   "./album-photo.jpg",
