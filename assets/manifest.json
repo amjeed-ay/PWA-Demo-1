@@ -1,5 +1,6 @@
 {
   "name": "My Favorite Music 2024",
+  "id": "music12024",
   "short_name": "Music 2024",
   "description": "A simple music player showcasing my favorite songs.",
   "start_url": "./index.html",
